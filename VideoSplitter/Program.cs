@@ -5,7 +5,6 @@ using MediaToolkit.Options;
 
 using (var engine = new Engine())
 {
-
     string timeSlotFile = @"H:\Videos\Captures\Ghost in the Shell (1995)\timestamps.txt";
     string timeSlots = File.ReadAllText(timeSlotFile);
     string[] text = timeSlots.Split(Environment.NewLine);
